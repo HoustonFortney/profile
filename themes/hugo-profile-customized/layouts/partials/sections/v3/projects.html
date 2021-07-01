@@ -1,0 +1,246 @@
+<section id="projects">
+  <div class="container-fluid py-3 pt-5" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600"
+    data-aos-once="true">
+    <div class="text-dark text-center h3">Projects</div>
+    <div class="row justify-content-center pt-2">
+
+      <div class="col-md-8 m-3 shadow bg-white rounded" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+        <div class="p-3 bg-white">
+          <div class="">
+            <h2>Scientific Instrumentation</h2>
+            <img width="40" src="/icons/c++.png" title="C++">
+            <img width="40" src="/icons/arm.png" title="ARM">
+            <img width="40" src="/icons/hardware-design.png" title="Hardware Design">
+            <img width="40" src="/icons/project-leadership.png" title="Project Leadership">
+            <p class="card-text pt-2">
+              I built instrumentation for measurement and control of temperature, magnetic field, and electrical properties.
+              These instruments are used by scientists for research at extreme temperatures.
+              This work has involved a broad range of experience including:
+            </p>
+            <ul style="padding-left: 30px;">
+              <li>Development of 25+ printed circuit boards</li>
+              <li>Performing in-depth analysis and optimization of circuit performance</li>
+              <li>Producing novel designs to meet demanding application requirements (3 patents pending)</li>
+              <li>Travelling to customer sites to understand their unmet needs</li>
+              <li>New product concept generation</li>
+              <li>Authoring specialized DSP libraries</li>
+              <li>Developing embedded C/C++ for 6 products</li>
+              <li>Leading large scale projects</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 m-3 shadow bg-white rounded" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+        <div class="p-3 bg-white">
+          <div class="">
+            <h2>HIL Testing Platform</h2>
+            <img width="40" src="/icons/python.png" title="Python">
+            <img width="40" src="/icons/hardware-design.png" title="Hardware Design">
+            <p class="card-text pt-2">
+              I implemented a Hardware In the Loop (HIL) testing program which improved code quality and enabled more frequent, confident delivery.
+            </p>
+            <ul style="padding-left: 30px;">
+              <li>Developed a printed circuit board with sources, measurements, test loads and a 4x16 crossbar switch to enable automated testing of multiple devices in a platform</li>
+              <li>Designed test cable harnessing and apparatus</li>
+              <li>Implemented a python package for control of the test fixtures</li>
+              <li>Created a light wrapper around the built in python unittest framework</li>
+              <li>Developed an HTML test reporting tool with plots for easy visualization and debugging of performance</li>
+              <li>Implemented test suites</li>
+              <li>Tests are run for pull request validation and nightly builds</li>
+              <li>Authored various tools to conduct automation of build, test and deployment tasks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 m-3 shadow bg-white rounded" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+        <div class="p-3 bg-white">
+          <div class="">
+            <h2>DCF Tool</h2>
+            <img width="40" src="/icons/python.png" title="Python">
+            <img width="40" src="/icons/flask.png" title="Flask">
+            <img height="40" src="/icons/mongodb.png" title="MongoDB">
+            <img width="40" src="/icons/aws.png" title="Amazon Web Services">
+            <img width="40" src="/icons/google-analytics.png" title="Google Analytics">
+            <img width="40" src="/icons/sentry.png" title="Sentry">
+            <p class="card-text pt-3">
+              <a target="_blank" href="https://dcftool.com/">DCF Tool</a> is an ad-supported website that
+              enables investors to perform an automated
+              <a target="_blank" href="https://www.investopedia.com/terms/d/dcf.asp">Discounted Cash Flow (DCF)</a>
+              analysis on a stock using historical financial data.
+              I am the sole developer and 50% owner of DCF Tool.
+            </p>
+            <ul style="padding-left: 30px;">
+              <li>8k views per month</li>
+              <li>
+                Deployed on Amazon Web Services using:
+                <a href="https://aws.amazon.com/elasticbeanstalk/">Elastic Beanstalk</a>,
+                <a href="https://aws.amazon.com/codebuild/">Code Build</a>,
+                <a href="https://aws.amazon.com/codepipeline/">Code Pipeline</a>,
+                <a href="https://aws.amazon.com/s3/">S3</a>,
+                <a href="https://aws.amazon.com/route53/">Route 53</a>
+              </li>
+              <li>Database: <a href="https://www.mongodb.com/cloud/atlas">MongoDB Atlas</a></li>
+              <li>Worker tier:
+                <a href="https://aws.amazon.com/sqs/">SQS</a>,
+                <a href="https://aws.amazon.com/ec2/">EC2</a>
+              </li>
+              <li>Extensive monitoring:
+                <a href="https://sentry.io/">Sentry</a>,
+                <a href="https://aws.amazon.com/cloudwatch/">Cloudwatch</a>,
+                <a href="https://uptimerobot.com/">UptimeRobot</a>,
+                <a href="https://cronitor.io/">Cronitor</a>
+              </li>
+              <li>User feedback collection: <a href="https://www.appzi.com/">Appzi</a></li>
+              <li>Traffic and engagement analysis: <a href="https://analytics.google.com/">Google Analytics</a></li>
+              <li>Dependency management: <a href="https://dependabot.com/">Dependabot</a></li>
+            </ul>
+            <a class="btn btn-sm btn-info" target="_blank" href="https://dcftool.com/">
+              Check it out
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 m-3 shadow bg-white rounded" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+        <div class="p-3 bg-white">
+          <div class="">
+            <h2>DSL Compiler</h2>
+            <img width="40" src="/icons/python.png" title="Python">
+            <img width="40" src="/icons/compilers.png" title="Algorithms">
+            <p class="card-text pt-2">
+              A custom RPC/RSO protocol was in use to communicate between embedded devices and higher level software.
+              Implementing handlers on both ends and keeping them in sync was a repetitive, error-prone task.
+              I wrote a CLI tool to generate code for both ends from a single shared file that declares the protocol
+              using a Domain Specific Language (DSL).
+            </p>
+            <ul style="padding-left: 30px;">
+              <li>Designed a grammar to both define and document the protocol in a single file</li>
+              <li>Implemented lexing and parsing with <a href="https://pypi.org/project/ply/">ply</a></li>
+              <li>Implemented code generation making extensive use of recursive algorithms that process the AST</li>
+              <li>Made a CLI using <a href="https://pypi.org/project/click/">click</a></li>
+              <li>Authored a full test suite that runs against the generated code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 m-3 shadow bg-white rounded" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+        <div class="p-3 bg-white">
+          <div class="">
+            <h2>TodoApp</h2>
+            <img width="40" src="/icons/flask.png" title="Flask">
+            <img height="40" src="/icons/mongodb.png" title="MongoDB">
+            <img width="40" src="/icons/react.png" title="React">
+            <img width="40" src="/icons/bootstrap.png" title="Bootstrap">
+            <img width="40" src="/icons/webpack.png" title="Webpack">
+            <img width="40" src="/icons/aws.png" title="Amazon Web Services">
+            <p class="card-text pt-2">
+              I am meticulous about making the most of my time.
+              For many years I did this with a system I had implemented using a paper schedule.
+              While there are many existing tools out there for managing tasks,
+              I wanted to make one that fit my exact method,
+              and take the opportunity to gain experience with the <a href="https://reactjs.org/">React</a> framework.
+              TodoApp has some cool features:
+            </p>
+            <ul style="padding-left: 30px;">
+              <li>Sortable, nestable task views</li>
+              <li>Week-based prioritization (like sprints)</li>
+              <li>Flexible drag and drop interface</li>
+              <li>Recurring task generation</li>
+              <li>Integrated forecast for optimizing schedule around weather conditions</li>
+              <li>Markdown notes</li>
+              <li>Trend analysis</li>
+              <li>
+                Deployed on Amazon Web Services using:
+                <a href="https://aws.amazon.com/elasticbeanstalk/">Elastic Beanstalk</a>,
+                <a href="https://aws.amazon.com/codebuild/">Code Build</a>,
+                <a href="https://aws.amazon.com/codepipeline/">Code Pipeline</a>,
+                <a href="https://aws.amazon.com/s3/">S3</a>,
+                <a href="https://aws.amazon.com/cloudfront/">CloudFront</a>
+                <a href="https://aws.amazon.com/route53/">Route 53</a>
+              </li>
+              <li>Database: <a href="https://www.mongodb.com/cloud/atlas">MongoDB Atlas</a></li>
+            </ul>
+            <a class="btn btn-sm btn-info mr-2" target="_blank" href="https://staging.houstonfortney.com/">
+              Check it out
+            </a>
+            Sign In with any Google account
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 m-3 shadow bg-white rounded" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+        <div class="p-3 bg-white">
+          <div class="">
+            <h2>Lake Shore Python Driver</h2>
+            <img width="40" src="/icons/python.png" title="Python">
+            <p class="card-text pt-2">
+              I architected a python package which eases the integration of instruments into python applications by users.
+            </p>
+            <ul style="padding-left: 30px;">
+              <li><a href="https://pypi.org/project/lakeshore/">Published on PyPI</a></li>
+              <li>Negotiates version of connected device and handles version-specific features</li>
+              <li>Dual support of Python 2 and 3</li>
+              <li>Thread safety</li>
+              <li>Documentation generation: <a href="https://www.sphinx-doc.org/en/master/">Sphinx</a></li>
+              <li>Test environment manager: <a href="https://tox.readthedocs.io/en/latest/">tox</a></li>
+            </ul>
+            <a href="https://github.com/lakeshorecryotronics/python-driver" class="px-1 pr-2">
+              <i class="fab text-dark fa-lg fa-github pro-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 m-3 shadow bg-white rounded" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+        <div class="p-3 bg-white">
+          <div class="">
+            <h2>Optimization Software</h2>
+            <img width="40" src="/icons/python.png" title="Python">
+            <img width="40" src="/icons/numpy.png" title="NumPy">
+            <p class="card-text pt-2">
+
+            </p>
+            <ul style="padding-left: 30px;">
+              <li>I performed an analysis of sensor design performance from fundamental equations</li>
+              <li>I implemented a program which could execute the analysis and produce an optimal design using <a href="https://numpy.org/">numpy</a></li>
+              <li>The tool produces novel designs that yield results which are superior to decades-old solutions</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-8 m-3 shadow bg-white rounded" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+        <div class="p-3 bg-white">
+          <div class="">
+            <h2>This Site</h2>
+            <img width="40" src="/icons/hugo.png" title="Hugo">
+            <img width="40" src="/icons/bootstrap.png" title="Bootstrap">
+            <img width="40" src="/icons/aws.png" title="Amazon Web Services">
+            <p class="card-text pt-2">
+
+            </p>
+            <ul style="padding-left: 30px;">
+              <li>
+                Developed using <a href="https://gohugo.io/">Hugo</a>
+                and a the <a href="https://themes.gohugo.io/hugo-profile/">Hugo Profile</a> theme
+                (thanks <a href="https://gurusabarish.tech/">Gurusabarish</a>)
+              </li>
+              <li>
+                Deployed on Amazon Web Services using:
+                <a href="https://aws.amazon.com/s3/">S3</a>,
+                <a href="https://aws.amazon.com/cloudfront/">CloudFront</a>,
+                <a href="https://aws.amazon.com/route53/">Route 53</a>
+              </li>
+            </ul>
+            <a href="https://github.com/HoustonFortney/profile" class="px-1 pr-2">
+              <i class="fab text-dark fa-lg fa-github pro-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
