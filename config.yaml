@@ -1,0 +1,100 @@
+baseURL: http://localhost:1313/
+languageCode: en-us
+title: My New Hugo Site
+theme: "hugo-profile"
+
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+
+enableEmoji: true
+params:
+  version: 3
+
+  favicon: "/images/fav.png"
+  description: "A high performance hugo theme for personal portfolio and blog."
+
+  # home
+  disable_home: false
+  profile_image: "/images/profile.png"
+  name: "Houston Fortney"
+  profession: "Electrical Engineer and Software Developer"
+  github: "https://github.com/HoustonFortney"
+  linkedin: "https://www.linkedin.com/in/houstonfortney"
+  stackoverflow: "https://electronics.stackexchange.com/users/83342/houston-fortney"
+
+  # About
+  disable_about: false
+  descripe_l1_person: "Hi, I'm Houston Fortney, a passionate Electrical Engineer and Software Developer. I enjoy using the latest technologies to solve problems. I'm motivated by the impact my work has on the world."
+  descripe_l2_person: "To learn more, take a look at [what I have built](#projects)."
+  skills:
+    - name: Python
+      percentage: 98
+    - name: Embedded C++
+      percentage: 95
+    - name: Hardware In the Loop (HIL) Testing
+      percentage: 88
+    - name: CI/CD Pipeline Setup and Management
+      percentage: 78
+    - name: Full Stack Web Development
+      percentage: 73
+
+  # Experience
+  disable_experience: false
+  experience:
+    - company: "Lake Shore Cryotronics"
+      short: "lakeshore"
+      role: "Electrical Engineer IV"
+      startdate: 2013
+      enddate: present
+      featuredpoints:
+        - point: Design and test of Printed Circuit Boards
+        - point: Development of embedded applications
+    - company: "Purdue University"
+      short: "purdue"
+      role: "Teaching and Research Assistant"
+      startdate: 2013
+      enddate: 2014
+      featuredpoints:
+        - point: Teaching Assistant for C Programming (CS159) and Microprocessor (ECE362) courses
+        - point: Assisted in reasearch of huminoid robot locomotion
+    - company: "Battelle"
+      short: "battelle"
+      role: "Engineering Intern"
+      startdate: 2011
+      enddate: 2011
+      featuredpoints:
+        - point: Sensor and display interfacing in an embedded environment
+        - point: Proof of concept work for new sensor selection
+
+  # Education
+  disable_education: false
+  education:
+    - degree: "BS in Electrical Engineering"
+      university: "Purdue University"
+      startedyear: "2011"
+      graduation: "2014"
+
+  # Achievements
+  disable_achievements: false
+  achievements:
+    - title: Ironman
+      description: I love to train for and compete in Ironman and half Ironman races.
+      img: /images/ironman.jpg
+    - title: Starbucks for Life
+      description: In 2015 I won a prize from Starbucks. I get a free drink every day!
+      img: /images/starbucks.png
+
+  # Contact
+  disable_contact: false
+  contact_content: If you'd like to chat, feel free to send me an email.
+  email: "houstonfortney@gmail.com"
+
+  # Footer
+  socialiconfooter: false
+  recentposts: false
+
+  # Blog
+  showdescription: false
+  tweet: true
