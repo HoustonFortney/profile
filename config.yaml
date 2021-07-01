@@ -1,4 +1,4 @@
-baseURL: http://localhost:1313/
+baseURL: https://houstonfortney.com/
 languageCode: en-us
 title: My New Hugo Site
 theme: "hugo-profile-customized"
