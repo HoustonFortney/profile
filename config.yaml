@@ -49,7 +49,7 @@ params:
       startdate: 2013
       enddate: present
       featuredpoints:
-        - point: Design and test of Printed Circuit Boards
+        - point: Design and test of scientific instrumentation electronics
         - point: Development of embedded applications
     - company: "Purdue University"
       short: "purdue"
