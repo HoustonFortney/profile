@@ -43,14 +43,22 @@ params:
   # Experience
   disable_experience: false
   experience:
+    - company: "Path Robotics"
+      short: "path"
+      role: "Software Engineer"
+      startdate: 2021
+      enddate: present
+      featuredpoints:
+        - point: I'm excited to get started!
     - company: "Lake Shore Cryotronics"
       short: "lakeshore"
       role: "Electrical Engineer IV"
       startdate: 2013
-      enddate: present
+      enddate: 2021
       featuredpoints:
         - point: Design and test of scientific instrumentation electronics
         - point: Development of embedded applications
+        - point: Project leadership
     - company: "Purdue University"
       short: "purdue"
       role: "Teaching and Research Assistant"
