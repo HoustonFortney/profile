@@ -26,7 +26,7 @@ params:
 
   # About
   disable_about: false
-  descripe_l1_person: "Hi, I'm Houston Fortney, a passionate Electrical Engineer and Software Developer. I enjoy using the latest technologies to solve problems. I'm motivated by the impact my work has on the world."
+  descripe_l1_person: "Hi, I'm Houston Fortney, a passionate Electrical Engineer and Software Developer. I enjoy using the latest technologies to solve hard problems. I'm motivated by the impact my work has on the world."
   descripe_l2_person: "To learn more, take a look at [what I have built](#projects)."
   skills:
     - name: Python
